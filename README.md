@@ -7,7 +7,7 @@ Steps:
 - Business recommendations to reduce churn.
 - Tools Used: Python, Pandas, Feature Engineering
 
-Key insights & conclusion:
+Key insights :
 - Those who have not taken the international plans , are retaining more as compared to those who have taken the international plain and churning more.
 - Significant difference in average customer service calls for both the groups(churned & non-churned).
 - Day charges are more as compared to evening & night charges.
@@ -19,4 +19,29 @@ Key insights & conclusion:
 * International calls affect churn differently by plan
 * Biggest churn comes from unused international plans
 
-Detailed analysis in the code attached in folder
+Challenges Faced :
+- Imbalanced target variable required careful aggregation to avoid misleading conclusions.
+- Raw numerical features needed binning and segmentation to extract meaningful patterns
+- Customer behavior metrics were highly skewed, requiring threshold-based analysis.
+- Understanding churn drivers required combining multiple dimensions (plan type, calls, usage) instead of relying on single variables.
+
+Recommendations :
+ Customer Experience
+- Proactively flag customers with >3 service calls for retention outreach.
+- Improve first-call resolution to reduce repeated support interactions.
+- Implement customer satisfaction checks after multiple support contacts.
+
+International Plan Strategy :
+- Review pricing and service quality for international plans.
+- Offer personalized retention offers to high international-usage customers.
+- Monitor churn separately for international vs non-international segments.
+
+Retention Strategy
+- Build an early-warning churn system using:
+    * Service call count
+    * International plan usage
+    * High monthly charges
+
+Target high-risk customers with loyalty incentives before churn occurs.
+
+Detailed analysis in  code attached in the folder
