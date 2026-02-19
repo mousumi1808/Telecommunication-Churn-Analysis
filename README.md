@@ -46,11 +46,21 @@ Target high-risk customers with loyalty incentives before churn occurs.
 
 Detailed analysis in  code attached in the folder
 
-Tools & Technologies
+Skills Demonstrated :
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+Data Cleaning & Preprocessing
+Exploratory Data Analysis (EDA)
+Statistical Analysis
+Data Visualization
+Business Insight Generation
+power bi Dashboard Development
+Problem Solving
+
+Tools & Technologies :
+
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
