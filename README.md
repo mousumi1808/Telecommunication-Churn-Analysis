@@ -45,3 +45,12 @@ Retention Strategy
 Target high-risk customers with loyalty incentives before churn occurs.
 
 Detailed analysis in  code attached in the folder
+
+Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
