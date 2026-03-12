@@ -42,28 +42,9 @@ Retention Strategy
     * International plan usage
     * High monthly charges
 
-
-
-
 Target high-risk customers with loyalty incentives before churn occurs.
+
 Detailed analysis in  code attached in the folder
-
-SQL:
-create database TelecommChurnAnalysis
---drop table PorterdataAnalysis
-create table TelecommChurn(state1 varchar(10), account_length int, area_code varchar(100), international_plan varchar(4),
-       voice_mail_plan varchar(4), number_vmail_messages float, total_day_minutes float,
-       total_day_calls float, total_day_charge float, total_eve_minutes float,
-       total_eve_calls float, total_eve_charge float, total_night_minutes float,
-       total_night_calls float, total_night_charge float, total_intl_minutes float,
-       total_intl_calls float, total_intl_charge float,
-       number_customer_service_calls float, churn varchar(4)
-)
-
---truncate table  hospitaladmissionanalysis
-select * from TelecommChurn;
-
-
 
 Skills Demonstrated :
 
@@ -83,3 +64,5 @@ NumPy
 Matplotlib
 Seaborn
 Jupyter Notebook
+Power bi
+Sql server
